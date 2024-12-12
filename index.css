@@ -1,0 +1,96 @@
+/*style.css */
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background: #fafafa; 
+
+
+            background-size: cover;
+            background-attachment: absolute; 
+            min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.textup {
+    text-align: center;
+    color: #f48db4;
+    font-weight: 700;
+}
+
+i {
+    margin-right: 3px;
+}
+
+.form-box {
+    background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+
+
+    box-shadow: #dfa7a7;
+    padding: 15px;
+    border-radius: 8px;
+    width: 500px;
+    margin-bottom: 60px;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.radio-group {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: #ff347f;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+button {
+    background-color: #c9356c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    transition: .2s linear;
+}
+
+button:hover {
+    background-color: #dfa7a7;
+    border: none;
+    transform: translateY(-10px);
+}
+
+h1 {
+    color: #ff347f;
+}
